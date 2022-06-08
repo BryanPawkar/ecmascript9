@@ -45,7 +45,7 @@ helloWorld()
 
 //Formato de fecha
 
-const regexData = /([0-9]{4}-([0-9]{2})-([0-9]{2})/
+const regexData = /([0-9]{4})-([0-9]{2})-([0-9]{2})/
 const match = regexData.exec("1995-10-17");
 const year = match[1]; 
 const mes = match[2]; 
